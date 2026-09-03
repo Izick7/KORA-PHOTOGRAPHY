@@ -6,6 +6,7 @@ import MoreThanAphoto from "../components/MoreThanAphoto"
 import BehindTheImage from "../components/BehindTheImage"
 import Services from "../components/Services"
 import Process from "../components/Process"
+import Testimonials from "../components/Testimonials"
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <BehindTheImage />
       <Services />
       <Process />
+      <Testimonials />
       
     </>
   )
