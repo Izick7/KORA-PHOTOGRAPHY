@@ -1,34 +1,50 @@
 function Hero() {
-    return (
-        <>
-            <main className="w-full max-w-7xl px-6 md:px-10 lg:px-16 py-12 md:py-20">
-                <div className="flex flex-col gap-12 md:flex-row md:items-start md:justify-between">
+  return (
+    <section className="bg-kora-ivory">
+      <div className="mx-auto flex max-w-[1680px] flex-col gap-14 px-6 py-16 md:flex-row md:items-end md:justify-between md:gap-12 md:px-12 md:py-24 lg:py-28">
 
-                    <div className="w-full md:w-[55%]">
-                        <span className="">PORTRAIT STUDIO - LAGOS, NIGERIA</span>
-                        <h1>Built to <br />be seen </h1>
-                        <p>Portrait and personal-brand photography
-                            for people building something worth remembering.</p>
-                        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
-                            <button className="bg-[#151515] text-[#f9f6f0] px-10 py-5 text-[11px] font-medium tracking-[0.25em] uppercase transition-colors duration-200 hover:bg-neutral-800 rounded-none h-14 min-w-[220px]">
-                                BOOK A SESSION
-                            </button>
+        {/* LEFT CONTENT */}
+        <div className="w-full md:w-[55%]">
+          <span className="font-sans text-[10px] font-medium leading-none tracking-[0.2em] text-kora-muted uppercase">
+            PORTRAIT STUDIO — LAGOS, NIGERIA
+          </span>
 
-                            <button className="border border-[#151515]/30 text-[#151515] bg-transparent px-10 py-5 text-[11px] font-medium tracking-[0.25em] uppercase transition-colors duration-200 hover:bg-[#151515] hover:text-[#f9f6f0] rounded-none h-14 min-w-[220px]">
-                                EXPLORE THE WORK
-                            </button>
-                        </div>
-                    </div>
+          <h1 className="mt-6 font-display text-[4rem] leading-[0.88] tracking-[-0.04em] text-kora-black sm:text-7xl md:text-8xl lg:text-[9rem]">
+            Built to
+            <br />
+            be seen.
+          </h1>
 
-                    <img
-                        src=""
-                        alt="hero-img"
-                        className="w-full md:w-[40%] lg:w-[35%] object-cover aspect-[4/5]"
-                    />
-                </div>
-            </main>
-        </>
-    )
+          <p className="mt-8 max-w-md font-sans text-base leading-[1.6] text-kora-muted md:mt-10">
+            Portrait and personal-brand photography for people
+            building something worth remembering.
+          </p>
+
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row md:mt-10">
+
+            <button className="h-14 bg-kora-black px-8 font-sans text-[11px] font-medium leading-none tracking-[0.22em] text-kora-white uppercase transition-colors duration-300 hover:bg-kora-muted">
+              BOOK A SESSION
+            </button>
+
+            <button className="h-14 border border-kora-black/30 bg-transparent px-8 font-sans text-[11px] font-medium leading-none tracking-[0.22em] text-kora-black uppercase transition-colors duration-300 hover:bg-kora-black hover:text-kora-white">
+              EXPLORE THE WORK
+            </button>
+
+          </div>
+        </div>
+
+        {/* HERO IMAGE */}
+        <div className="w-full md:w-[40%] lg:w-[36%]">
+          <img
+            src="src/assets/images/heroImg.jpg"
+            alt="Portrait photography by Kora Studios"
+            className="aspect-[4/5] w-full object-cover"
+          />
+        </div>
+
+      </div>
+    </section>
+  )
 }
 
-export default Hero;
+export default Hero
