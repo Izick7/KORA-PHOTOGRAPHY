@@ -5,6 +5,7 @@ import BrandStatement from "../components/BrandStatement"
 import MoreThanAphoto from "../components/MoreThanAphoto"
 import BehindTheImage from "../components/BehindTheImage"
 import Services from "../components/Services"
+import Process from "../components/Process"
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <MoreThanAphoto />
       <BehindTheImage />
       <Services />
+      <Process />
       
     </>
   )
