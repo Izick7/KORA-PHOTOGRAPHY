@@ -43,6 +43,7 @@ function Hero() {
         </div>
 
       </div>
+      <hr className="border border-kora-border"/>
     </section>
   )
 }
