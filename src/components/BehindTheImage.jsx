@@ -52,7 +52,8 @@ function BehindTheImage() {
                             <img
                                 src="/images/shot2.jpg"
                                 alt="Kora photographer directing a portrait session"
-                                className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                                className="aspect-[4/5] w-full object-cover 
+                                transition-transform duration-700 group-hover:scale-[1.03] mt-10"
                             />
                         </div>
                     </div>
