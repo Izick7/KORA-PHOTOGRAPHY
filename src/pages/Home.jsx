@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import SelectedWork from "../components/SelectedWork"
 import BrandStatement from "../components/BrandStatement"
 import MoreThanAphoto from "../components/MoreThanAphoto"
+import BehindTheImage from "../components/BehindTheImage"
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <SelectedWork />
       <BrandStatement />
       <MoreThanAphoto />
+      <BehindTheImage />
       
     </>
   )
