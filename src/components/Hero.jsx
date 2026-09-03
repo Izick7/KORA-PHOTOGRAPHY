@@ -38,7 +38,7 @@ function Hero() {
           <img
             src="src/assets/images/heroImg.jpg"
             alt="Portrait photography by Kora Studios"
-            className="aspect-[4/5] w-full object-cover"
+            className="w-full object-cover"
           />
         </div>
 
