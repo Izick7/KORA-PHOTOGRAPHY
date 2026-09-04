@@ -7,6 +7,7 @@ import BehindTheImage from "../components/BehindTheImage"
 import Services from "../components/Services"
 import Process from "../components/Process"
 import Testimonials from "../components/Testimonials"
+import FinalCta  from "../components/FinalCta"
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <Services />
       <Process />
       <Testimonials />
+      <FinalCta />
       
     </>
   )
