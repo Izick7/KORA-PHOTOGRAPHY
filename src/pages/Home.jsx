@@ -8,7 +8,7 @@ import Services from "../components/Services"
 import Process from "../components/Process"
 import Testimonials from "../components/Testimonials"
 import FinalCta  from "../components/FinalCta"
-
+import Footer  from "../components/Footer"
 
 function Home() {
   return (
@@ -23,6 +23,7 @@ function Home() {
       <Process />
       <Testimonials />
       <FinalCta />
+      <Footer />
       
     </>
   )
